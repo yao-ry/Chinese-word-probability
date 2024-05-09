@@ -38,8 +38,8 @@ def get_word_prob(input_ids):
 
 
 if __name__ == '__main__':
-    input_file_path = "/Users/runyi/Desktop/research idea/Mandarin studies/prediction update/norming/multi_tokens/test.csv"
-    output_file_path = "/Users/runyi/Desktop/research idea/Mandarin studies/prediction update/norming/multi_tokens/out.csv"
+    input_file_path = "/Users/test.csv"
+    output_file_path = "/Users/outs.csv"
 
     # Open output file for writing
     with open(output_file_path, "w", encoding="utf-8") as output_file:
