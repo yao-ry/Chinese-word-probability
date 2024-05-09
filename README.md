@@ -1,4 +1,4 @@
-# yao-ry-Chinese-word-probability
+# Chinese-word-probability
 
 These are three simple scripts to extract Chinese word (token) probabilities.
 
