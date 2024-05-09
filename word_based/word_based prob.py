@@ -7,8 +7,8 @@ tokenizer = AutoTokenizer.from_pretrained("uer/roberta-small-word-chinese-clueco
 model = AutoModelForMaskedLM.from_pretrained("uer/roberta-small-word-chinese-cluecorpussmall")
 
 # Define file paths
-input_file_path = "/Users/runyi/Desktop/research idea/Mandarin studies/prediction update/norming/word_based/test.csv"
-output_file_path = "/Users/runyi/Desktop/research idea/Mandarin studies/prediction update/norming/word_based/outs2.csv"
+input_file_path = "/Users/test.csv"
+output_file_path = "/Users/outs.csv"
 
 # Open input file and output file
 with open(input_file_path, "r", encoding="utf-8") as input_file, \
