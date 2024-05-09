@@ -7,8 +7,8 @@ tokenizer = AutoTokenizer.from_pretrained("bert-base-chinese")
 model = AutoModelForMaskedLM.from_pretrained("bert-base-chinese")
 
 # Input and output file paths
-input_file_path = "/Users/runyi/Desktop/research idea/Mandarin studies/prediction update/norming/single_token/test.csv" #change to your own path
-output_file_path = "/Users/runyi/Desktop/research idea/Mandarin studies/prediction update/norming/single_token/outs.csv"
+input_file_path = "/Users/test.csv" #change to your own path
+output_file_path = "/Users/outs.csv"
 
 # Open output file for appending
 output_file = open(output_file_path, "a", encoding="utf-8")
