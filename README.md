@@ -1,6 +1,6 @@
 # Chinese-word-probability
 
-These are three simple scripts to extract Chinese word (token) probabilities.
+These are three simple scripts to extract Chinese word (token) probabilities using fill-mask models.
 
 Token prediction is performed using the bert-base-Chinese model (inference API: [https://huggingface.co/google-bert/bert-base-chinese](https://huggingface.co/google-bert/bert-base-chinese)). It (i.e., 'single_token') generates the top 50 possible tokens along with their probabilities. I also experimented with a script （i.e.， ‘multi_tokens’） that can extract the probabilities of the next several tokens.
 
